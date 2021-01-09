@@ -260,7 +260,7 @@ footer .container .footer-flex {
 .company-strategy .box-info {
     width: 337px;
 }
-/*COMPANY PROJECTS SECTION*/
+/*COMPANY ACHIEVEMENTS SECTION*/
 .box-counter {
     display: flex;
     justify-content: space-between;
@@ -384,6 +384,20 @@ footer .container .footer-flex {
     .box {
         flex-direction: column;
     }
+
+    .box-sm {
+        margin-right: 10px;
+    }
+
+    .box-sm h3 {
+        font-size: 15px;
+    }
+
+    .box-sm p {
+        line-height: normal;
+        font-size: 13px;
+    }
+
     .company-info-columns {
         padding: 20px;
     }
