@@ -43,7 +43,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    padding: 35px 70px;
+    padding: 30px 50px;
 }
 
 main {
@@ -75,13 +75,17 @@ a {
     line-height: 17px;
 }
 
+a:hover {
+    color: #ff7616;
+}
+
 ul {
     display: flex;
 }
 
 li {
     list-style-type: none;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 label {
@@ -96,6 +100,7 @@ input {
     border-bottom: 1px solid #9da8b6;
     padding-bottom: 20px;
     width: 400px;
+    background-color: #f5f5f5;
 }
 
 .checkbox {
@@ -134,6 +139,7 @@ footer .container .footer-flex {
     display: flex;
     flex-direction: row;
     width: 100%;
+    background-color: #f5f5f5;
 }
 
 .container {
@@ -152,12 +158,23 @@ footer .container .footer-flex {
 /*NAVBAR*/
 .login-ul img {
     padding-right: 5px;
-    margin-top: 10px;
 }
+
 .signup-btn {
     border: 1.5px solid #0052b4;
     border-radius: 5px;
     padding: 7px 25px;
+    background-color: #f5f5f5;
+}
+
+.signup-btn:hover {
+    color: #ff7616;
+    cursor: pointer;
+    background-color: #0052b4;
+}
+
+.burger-menu-icon {
+    display: none;
 }
 
 /*COMPANY INTRODUCTION SECTION*/
@@ -235,30 +252,43 @@ footer .container .footer-flex {
 
 /*COMPANY STRATEGY SECTION*/
 .company-strategy {
+    display: flex;
     height: 900px;
-/*width: 1229px;*/
-    background-color: #fff;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.company-strategy .strategy-container {
+    width: 1229px;
+}
+
+.company-strategy .line {
+    width: 100%;
 }
 
 .company-strategy h2 {
     padding-bottom: 90px;
+    
 }
 
 .company-strategy p {
     font-size: 16px;
     padding-top: 50px;
+    
+
 }
 
-.company-strategy .container {
-    background-color: #fff;
-}
 
 .company-strategy .box {
     justify-content: space-between;
+    
+
 }
 
 .company-strategy .box-info {
     width: 337px;
+    
+
 }
 /*COMPANY ACHIEVEMENTS SECTION*/
 .box-counter {
@@ -369,12 +399,22 @@ footer .container .footer-flex {
 }
 
 @media (max-width:980px){
+
     aside {
-        width: 90px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .aside-logo {
+        width: 50px;
     }
 
     input {
         width: 200px;
+    }
+
+    li {
+        padding-right: 20px;
     }
 
     .container {
@@ -405,4 +445,48 @@ footer .container .footer-flex {
     .company-info .container {
         padding: 70px 30px;
     }
+}
+
+@media (max-width: 670px){
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+   nav {
+       display: flex;
+       padding: 10px 30px;
+       height: 120px;
+   }
+
+   .nav-ul {
+       display: none;
+       padding: 10px;
+   }
+
+   .login-ul {
+       display: inline-block;
+       padding: 10px;
+   }
+
+   .burger-menu-icon {
+       display: block;
+       padding: 10px;
+       cursor: pointer;
+   }
+
+   .logo-container {
+       height: 550px;
+   }
 }
