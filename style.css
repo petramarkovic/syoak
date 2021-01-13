@@ -193,7 +193,6 @@ li {
 .company-about .container-box-wrapper .box {
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .company-about .container-box-wrapper .box .box-info {
@@ -245,6 +244,7 @@ li {
 
 .company-strategy .strategy-container .box-img {
     margin-right: 180px;
+    margin-top: 150px;
 }
 
 .company-strategy .line {
@@ -266,6 +266,53 @@ li {
 
 .company-strategy .box-info {
     width: 337px;
+}
+
+.strategy-img-text-box {
+    width: 221px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 7px 4px rgba(0, 0, 0, 0.09);
+}
+
+.strategy-img-text-box img {
+    width: 10px;
+    height: 15px;
+    background-color: #fbfbfb;
+    margin: 16px 20px;
+}
+
+.strategy-img-text-box p {
+    width: 161px;
+    height: 29px;
+    line-height: 16px;
+    font-size: 11px;
+    color: #9da8b6;
+    padding-top: 0;
+}
+
+.text-box-1 {
+    position: relative;
+    bottom: 350px;
+    right: 50px;
+}
+
+.text-box-2 {
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+}
+
+.text-box-1-small {
+    left: 150px;
+    bottom: 250px;
+}
+
+.text-box-2-small {
+    right: 0;
 }
 /*COMPANY ACHIEVEMENTS SECTION*/
 .box-counter {
@@ -478,6 +525,10 @@ footer .container .footer-flex {
     
     .img-text-box {
         top: 1650px;
+    }
+    .company-strategy {
+        height: auto;
+        padding-left: 30px;
     }
 }
 
