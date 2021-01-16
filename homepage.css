@@ -7,3 +7,21 @@
 body {
     background-color: #e5e5e5;
 }
+
+/*NAVBAR*/
+nav {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 69px;
+    height: 100%;
+}
+
+.logo {
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+}
+
